@@ -1,0 +1,379 @@
+/* ここから下に記載していく */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .header nav li a {
+    display: flex;
+    align-items: left;
+  }
+  
+  .header nav li a img {
+    margin-right: 250px;
+  }
+
+  .header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header nav li {
+    margin: 0 10px;
+    text-align: left;
+  }
+
+  .header nav li:first-child {
+    text-align: center;
+  }
+
+  .header nav li:not(:first-child) a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 25px 10px;
+  }
+
+  .header nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .mainvisual {
+    position: relative;
+    text-align: center;
+  }
+  
+  .mainvisual img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mainvisual-text h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    color: white;
+    z-index: 1;
+    font-size: 250%;
+    font-weight: 600; 
+  }
+
+  .mainvisual-text p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    color: white;
+    z-index: 1;
+    font-size: 150%;
+
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  
+  .about {
+    max-width: 50%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  .about h2 {
+    font-size: 150%;
+    color: rgb(255, 162, 0);
+}
+
+  .about p {
+    font-size: 80%;
+}
+  
+  .photo-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .photo-gallery img {
+    width: 25%; 
+ 
+  }
+
+  .course{
+    max-width: 50%;
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center; 
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  .course title{
+    padding: 50 auto;
+  }
+
+  .course h2{
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+  .course p{
+    font-weight: normal;
+  }
+
+  .course-item {
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;
+  }
+  
+  .course-item img {
+    width: 50%;
+  }
+  
+  .course-description {
+    margin: 0 50px;
+}
+ 
+.course-description h3{
+    font-weight: 600;
+    font-size: larger;
+    margin: 30px auto;
+}
+
+.news {
+    max-width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+    line-height: 1.8;
+    font-weight: 600;
+  }
+
+  .news h2 {
+    font-size: 150%;
+    color: rgb(255, 162, 0);
+}
+
+  .news p {
+    font-size: 80%;
+}
+
+  .news-contena {
+    display: flex;
+    justify-content: baseline;
+    text-align: left;
+    margin: 30px auto;
+  }
+
+  .news-item{
+    max-width: 80%;
+  }
+
+  .btn-more {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #ffdd57;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-more:hover {
+    background-color: #ffc107;
+    transform: translateY(-2px);
+  }
+
+  .Access{
+    max-width: 100%;
+    background-color: rgb(244, 244, 244);
+    padding: 50px;
+    text-align: center; 
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+  }
+
+  .Access h2{
+    font-weight: 600;
+    font-size: x-large;
+  }
+
+  .information {
+    display: flex;
+    justify-content: center; 
+    text-align: left; 
+  }
+
+  .column {
+    margin: 0 10px; 
+  }
+  
+  .map-container {
+    height: 300px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: x-large;
+  }
+    
+  .contact-form p {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .contact-form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  
+  .contact-form .checkbox-label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form .checkbox-label input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .contact-form label > span, .contact-form .label-title {
+    width: 60%;
+    text-align: left;
+    margin-left: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  .contact-form textarea {
+    width: 60%;
+    height: 150px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .checkox-form {
+    text-align: left;
+    vertical-align: top;
+    display: flex;
+    justify-content: baseline;
+  }
+  
+  .checkox-form input {
+    max-width: 35px;
+  }
+
+  .checkbox label > span{
+    width: 100%;
+  }
+
+  .submit-button {
+    text-align: center; 
+    margin-bottom: 100px;
+  }
+  
+  .submit-button button {
+    padding: 10px 20px; 
+    background-color: #ffdd57;
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .submit-button button:hover {
+    background-color: #0056b3; 
+  }
+  
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    flex-basis: 45%;
+  }
+
+  .footer-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 5px;
+  }
+
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+  }
